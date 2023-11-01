@@ -6,16 +6,10 @@ import Toast from 'react-native-toast-message';
 export default function ListaAlunos({ navigation }) {
   const [alunos, setAlunos] = useState([
     {
-      nome: 'João Paulo',
-      matricula: '001',
-      turno: 'Manhã',
-      curso: 'Engenharia',
-    },
-    {
-      nome: 'Jorge Luiz',
-      matricula: '002',
-      turno: 'Tarde',
-      curso: 'Medicina',
+      nome: 'Amanda',
+      matricula: '22114290098',
+      turno: 'Vespertino',
+      curso: 'Ads',
     },
   ]);
   const [showModalExcluirAluno, setShowModalExcluirAluno] = useState(false);
